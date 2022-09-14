@@ -2,7 +2,7 @@
 name = "alabaster"
 version = "0.7.12"
 description = "A configurable sidebar-enabled Sphinx theme"
-category = "main"
+category = "dev"
 optional = false
 python-versions = "*"
 
@@ -206,7 +206,7 @@ dev = ["Sphinx (==4.3.2)", "black (==22.3.0)", "build (==0.8.0)", "flake8 (==4.0
 
 [[package]]
 name = "certifi"
-version = "2022.6.15.1"
+version = "2022.6.15.2"
 description = "Python package for providing Mozilla's CA Bundle."
 category = "main"
 optional = false
@@ -289,7 +289,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 name = "docutils"
 version = "0.17.1"
 description = "Docutils -- Python Documentation Utilities"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
@@ -373,7 +373,7 @@ test-win = ["cython", "mock", "nmslib", "pyemd", "pytest", "pytest-cov", "testfi
 name = "gitdb"
 version = "4.0.9"
 description = "Git Object Database"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 
@@ -384,7 +384,7 @@ smmap = ">=3.0.1,<6"
 name = "GitPython"
 version = "3.1.27"
 description = "GitPython is a python library used to interact with Git repositories"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.7"
 
@@ -437,7 +437,7 @@ python-versions = ">=3.6,<3.11"
 name = "greenlet"
 version = "1.1.3"
 description = "Lightweight in-process concurrent programming"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*"
 
@@ -461,7 +461,7 @@ scipy = ">=1.4.0"
 
 [[package]]
 name = "idna"
-version = "3.3"
+version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
 category = "main"
 optional = false
@@ -471,7 +471,7 @@ python-versions = ">=3.5"
 name = "imagesize"
 version = "1.4.1"
 description = "Getting image size from png/jpeg/jpeg2000/gif file"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
@@ -508,7 +508,7 @@ testing = ["pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)",
 
 [[package]]
 name = "ipykernel"
-version = "6.15.2"
+version = "6.15.3"
 description = "IPython Kernel for Jupyter"
 category = "main"
 optional = false
@@ -577,7 +577,7 @@ python-versions = "*"
 name = "ipywidgets"
 version = "7.7.2"
 description = "IPython HTML widgets for Jupyter"
-category = "main"
+category = "dev"
 optional = false
 python-versions = "*"
 
@@ -710,7 +710,7 @@ testing = ["altair", "beautifulsoup4", "beautifulsoup4", "cookiecutter", "covera
 name = "jupyter-cache"
 version = "0.4.3"
 description = "A defined interface for working with a cache of jupyter notebooks."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 
@@ -796,7 +796,7 @@ test = ["coverage", "ipykernel", "pre-commit", "pytest (>=6.0)", "pytest-console
 name = "jupyter-server-mathjax"
 version = "0.2.6"
 description = "MathJax resources as a Jupyter Server Extension."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.7"
 
@@ -810,7 +810,7 @@ test = ["jupyter-server[test]", "pytest"]
 name = "jupyter-sphinx"
 version = "0.3.2"
 description = "Jupyter Sphinx Extensions"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">= 3.6"
 
@@ -823,7 +823,7 @@ Sphinx = ">=2"
 
 [[package]]
 name = "jupyterlab"
-version = "3.4.6"
+version = "3.4.7"
 description = "JupyterLab computational environment"
 category = "main"
 optional = false
@@ -838,6 +838,7 @@ jupyterlab-server = ">=2.10,<3.0"
 nbclassic = "*"
 notebook = "<7"
 packaging = "*"
+tomli = "*"
 tornado = ">=6.1.0"
 
 [package.extras]
@@ -889,7 +890,7 @@ test = ["codecov", "ipykernel", "jupyter-server[test]", "openapi-core (>=0.14.2)
 name = "jupyterlab-widgets"
 version = "1.1.1"
 description = "A JupyterLab extension."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 
@@ -955,7 +956,7 @@ source = ["Cython (>=0.29.7)"]
 name = "markdown-it-py"
 version = "1.1.0"
 description = "Python port of markdown-it. Markdown parsing, done right!"
-category = "main"
+category = "dev"
 optional = false
 python-versions = "~=3.6"
 
@@ -1012,7 +1013,7 @@ traitlets = "*"
 name = "mdit-py-plugins"
 version = "0.2.8"
 description = "Collection of plugins for markdown-it-py"
-category = "main"
+category = "dev"
 optional = false
 python-versions = "~=3.6"
 
@@ -1044,7 +1045,7 @@ python-versions = "*"
 name = "myst-nb"
 version = "0.13.2"
 description = "A Jupyter Notebook Sphinx reader built on top of the MyST markdown parser."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 
@@ -1071,7 +1072,7 @@ testing = ["coverage (<5.0)", "ipykernel (>=5.5,<6.0)", "ipython (<8)", "jupytex
 name = "myst-parser"
 version = "0.15.2"
 description = "An extended commonmark compliant parser, with bridges to docutils & sphinx."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 
@@ -1177,7 +1178,7 @@ webpdf = ["pyppeteer (>=1,<1.1)"]
 name = "nbdime"
 version = "3.1.1"
 description = "Diff and merge of Jupyter Notebooks"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 
@@ -1198,7 +1199,7 @@ test = ["jsonschema", "jupyter-server[test]", "mock", "notebook", "pytest (>=3.6
 
 [[package]]
 name = "nbformat"
-version = "5.4.0"
+version = "5.5.0"
 description = "The Jupyter Notebook format"
 category = "main"
 optional = false
@@ -1207,11 +1208,11 @@ python-versions = ">=3.7"
 [package.dependencies]
 fastjsonschema = "*"
 jsonschema = ">=2.6"
-jupyter-core = "*"
+jupyter_core = "*"
 traitlets = ">=5.1"
 
 [package.extras]
-test = ["check-manifest", "pre-commit", "pytest", "testpath"]
+test = ["check-manifest", "pep440", "pre-commit", "pytest", "testpath"]
 
 [[package]]
 name = "nest-asyncio"
@@ -1616,7 +1617,7 @@ python-versions = ">=3.7"
 name = "PyYAML"
 version = "6.0"
 description = "YAML parser and emitter for Python"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 
@@ -1749,7 +1750,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
 name = "smart-open"
-version = "6.1.0"
+version = "6.2.0"
 description = "Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)"
 category = "main"
 optional = false
@@ -1768,7 +1769,7 @@ webhdfs = ["requests"]
 name = "smmap"
 version = "5.0.0"
 description = "A pure Python implementation of a sliding window memory map manager"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 
@@ -1784,7 +1785,7 @@ python-versions = ">=3.7"
 name = "snowballstemmer"
 version = "2.2.0"
 description = "This package provides 29 stemmers for 28 languages generated from Snowball algorithms."
-category = "main"
+category = "dev"
 optional = false
 python-versions = "*"
 
@@ -1800,7 +1801,7 @@ python-versions = ">=3.6"
 name = "Sphinx"
 version = "4.5.0"
 description = "Python documentation generator"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 
@@ -1969,7 +1970,7 @@ testing = ["beautifulsoup4", "matplotlib", "pytest", "pytest-regressions"]
 name = "sphinx-togglebutton"
 version = "0.3.2"
 description = "Toggle page content and collapse admonitions in Sphinx."
-category = "main"
+category = "dev"
 optional = false
 python-versions = "*"
 
@@ -1986,7 +1987,7 @@ sphinx = ["matplotlib", "myst-nb", "numpy", "sphinx-book-theme", "sphinx-design"
 name = "sphinxcontrib-applehelp"
 version = "1.0.2"
 description = "sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.5"
 
@@ -2013,7 +2014,7 @@ Sphinx = ">=2.1"
 name = "sphinxcontrib-devhelp"
 version = "1.0.2"
 description = "sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.5"
 
@@ -2025,7 +2026,7 @@ test = ["pytest"]
 name = "sphinxcontrib-htmlhelp"
 version = "2.0.0"
 description = "sphinxcontrib-htmlhelp is a sphinx extension which renders HTML help files"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.6"
 
@@ -2037,7 +2038,7 @@ test = ["html5lib", "pytest"]
 name = "sphinxcontrib-jsmath"
 version = "1.0.1"
 description = "A sphinx extension which renders display math in HTML via JavaScript"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.5"
 
@@ -2048,7 +2049,7 @@ test = ["flake8", "mypy", "pytest"]
 name = "sphinxcontrib-qthelp"
 version = "1.0.3"
 description = "sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp document."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.5"
 
@@ -2060,7 +2061,7 @@ test = ["pytest"]
 name = "sphinxcontrib-serializinghtml"
 version = "1.1.5"
 description = "sphinxcontrib-serializinghtml is a sphinx extension which outputs \"serialized\" HTML files (json and pickle)."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.5"
 
@@ -2072,7 +2073,7 @@ test = ["pytest"]
 name = "SQLAlchemy"
 version = "1.4.41"
 description = "Database Abstraction Library"
-category = "main"
+category = "dev"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,>=2.7"
 
@@ -2190,7 +2191,7 @@ telegram = ["requests"]
 
 [[package]]
 name = "traitlets"
-version = "5.3.0"
+version = "5.4.0"
 description = ""
 category = "main"
 optional = false
@@ -2284,7 +2285,7 @@ test = ["websockets"]
 name = "wheel"
 version = "0.37.1"
 description = "A built-package format for Python"
-category = "main"
+category = "dev"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 
@@ -2295,7 +2296,7 @@ test = ["pytest (>=3.0.0)", "pytest-cov"]
 name = "widgetsnbextension"
 version = "3.6.1"
 description = "IPython HTML widgets for Jupyter"
-category = "main"
+category = "dev"
 optional = false
 python-versions = "*"
 
@@ -2317,7 +2318,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<3.10"
-content-hash = "11a41b42ed9d6caa8f1207132552fa94fac27e9fc2d239dcb30ee7ed7c158cd3"
+content-hash = "eaf73adfae980eb12e80a62eea252d293f5c988b1fb4406f3472b29db890788f"
 
 [metadata.files]
 alabaster = [
@@ -2421,8 +2422,8 @@ bleach = [
     {file = "bleach-5.0.1.tar.gz", hash = "sha256:0d03255c47eb9bd2f26aa9bb7f2107732e7e8fe195ca2f64709fcf3b0a4a085c"},
 ]
 certifi = [
-    {file = "certifi-2022.6.15.1-py3-none-any.whl", hash = "sha256:43dadad18a7f168740e66944e4fa82c6611848ff9056ad910f8f7a3e46ab89e0"},
-    {file = "certifi-2022.6.15.1.tar.gz", hash = "sha256:cffdcd380919da6137f76633531a5817e3a9f268575c128249fb637e4f9e73fb"},
+    {file = "certifi-2022.6.15.2-py3-none-any.whl", hash = "sha256:0aa1a42fbd57645fabeb6290a7687c21755b0344ecaeaa05f4e9f6207ae2e9a8"},
+    {file = "certifi-2022.6.15.2.tar.gz", hash = "sha256:aa08c101214127b9b0472ca6338315113c9487d45376fd3e669201b477c71003"},
 ]
 cffi = [
     {file = "cffi-1.15.1-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:a66d3508133af6e8548451b25058d5812812ec3798c886bf38ed24a98216fab2"},
@@ -2650,8 +2651,8 @@ hyppo = [
     {file = "hyppo-0.3.2.tar.gz", hash = "sha256:1c3b830dca2792a621bbe06ce215200884685068f60de29c5c521493ae61eaf3"},
 ]
 idna = [
-    {file = "idna-3.3-py3-none-any.whl", hash = "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"},
-    {file = "idna-3.3.tar.gz", hash = "sha256:9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"},
+    {file = "idna-3.4-py3-none-any.whl", hash = "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"},
+    {file = "idna-3.4.tar.gz", hash = "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"},
 ]
 imagesize = [
     {file = "imagesize-1.4.1-py2.py3-none-any.whl", hash = "sha256:0d8d18d08f840c19d0ee7ca1fd82490fdc3729b7ac93f49870406ddde8ef8d8b"},
@@ -2666,8 +2667,8 @@ importlib-resources = [
     {file = "importlib_resources-5.9.0.tar.gz", hash = "sha256:5481e97fb45af8dcf2f798952625591c58fe599d0735d86b10f54de086a61681"},
 ]
 ipykernel = [
-    {file = "ipykernel-6.15.2-py3-none-any.whl", hash = "sha256:59183ef833b82c72211aace3fb48fd20eae8e2d0cae475f3d5c39d4a688e81ec"},
-    {file = "ipykernel-6.15.2.tar.gz", hash = "sha256:e7481083b438609c9c8a22d6362e8e1bc6ec94ba0741b666941e634f2d61bdf3"},
+    {file = "ipykernel-6.15.3-py3-none-any.whl", hash = "sha256:befe3736944b21afec8e832725e9a45f254c8bd9afc40b61d6661c97e45aff5a"},
+    {file = "ipykernel-6.15.3.tar.gz", hash = "sha256:b81d57b0e171670844bf29cdc11562b1010d3da87115c4513e0ee660a8368765"},
 ]
 ipython = [
     {file = "ipython-8.5.0-py3-none-any.whl", hash = "sha256:6f090e29ab8ef8643e521763a4f1f39dc3914db643122b1e9d3328ff2e43ada2"},
@@ -2734,8 +2735,8 @@ jupyter-sphinx = [
     {file = "jupyter_sphinx-0.3.2.tar.gz", hash = "sha256:37fc9408385c45326ac79ca0452fbd7ae2bf0e97842d626d2844d4830e30aaf2"},
 ]
 jupyterlab = [
-    {file = "jupyterlab-3.4.6-py3-none-any.whl", hash = "sha256:dfe0234af957bfc8c5bb487cffe31d427cc9fd6de5760d226c382fac56529828"},
-    {file = "jupyterlab-3.4.6.tar.gz", hash = "sha256:e3599c8bc74cee064115f96e388cd27a2a7251b1dc02f4ad1bf8a7ff5270f179"},
+    {file = "jupyterlab-3.4.7-py3-none-any.whl", hash = "sha256:30c64bc0aa0ba09959ab6fd5c74f08a6ae64656b46a29e2522142a5fda0dc486"},
+    {file = "jupyterlab-3.4.7.tar.gz", hash = "sha256:4dc48ab0980e3af2e921dff26e0013dd03b104b1b67f0d85b67448e16e25311e"},
 ]
 jupyterlab-code-formatter = [
     {file = "jupyterlab_code_formatter-1.5.3-py3-none-any.whl", hash = "sha256:0b003a3dbe694714403e10da2a6dd829c73cfa159e39e159eade573c49d119b7"},
@@ -3057,8 +3058,8 @@ nbdime = [
     {file = "nbdime-3.1.1.tar.gz", hash = "sha256:67767320e971374f701a175aa59abd3a554723039d39fae908e72d16330d648b"},
 ]
 nbformat = [
-    {file = "nbformat-5.4.0-py3-none-any.whl", hash = "sha256:0d6072aaec95dddc39735c144ee8bbc6589c383fb462e4058abc855348152dad"},
-    {file = "nbformat-5.4.0.tar.gz", hash = "sha256:44ba5ca6acb80c5d5a500f1e5b83ede8cbe364d5a495c4c8cf60aaf1ba656501"},
+    {file = "nbformat-5.5.0-py3-none-any.whl", hash = "sha256:eb21018bbcdb29e7a4b8b29068d4b6794cdad685db8fcd569b97a09a048dc2e4"},
+    {file = "nbformat-5.5.0.tar.gz", hash = "sha256:9ebe30e6c3b3e5b47d39ff0a3897a1acf523d2bfafcb4e2d04cdb70f8a66c507"},
 ]
 nest-asyncio = [
     {file = "nest_asyncio-1.5.5-py3-none-any.whl", hash = "sha256:b98e3ec1b246135e4642eceffa5a6c23a3ab12c82ff816a92c612d68205813b2"},
@@ -3595,8 +3596,8 @@ six = [
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
 ]
 smart-open = [
-    {file = "smart_open-6.1.0-py3-none-any.whl", hash = "sha256:1a5315659844085a1ba7ec40d080c1d084ba8535ec113160d692fe8a0e032417"},
-    {file = "smart_open-6.1.0.tar.gz", hash = "sha256:c8fd9e9f90f0e285f1346481b0ae0fb57bd04b1138826c5e826ee98b2029d7f3"},
+    {file = "smart_open-6.2.0-py3-none-any.whl", hash = "sha256:088bf00f9327c71e549bc2f86567d3320df5d89667f009ce1c16568976068ef7"},
+    {file = "smart_open-6.2.0.tar.gz", hash = "sha256:1b4df5c8365218f3852c507451920ccad606c80b0acb4e67508e50ba9b5d2632"},
 ]
 smmap = [
     {file = "smmap-5.0.0-py3-none-any.whl", hash = "sha256:2aba19d6a040e78d8b09de5c57e96207b09ed71d8e55ce0959eeee6c8e190d94"},
@@ -3763,8 +3764,8 @@ tqdm = [
     {file = "tqdm-4.64.1.tar.gz", hash = "sha256:5f4f682a004951c1b450bc753c710e9280c5746ce6ffedee253ddbcbf54cf1e4"},
 ]
 traitlets = [
-    {file = "traitlets-5.3.0-py3-none-any.whl", hash = "sha256:65fa18961659635933100db8ca120ef6220555286949774b9cfc106f941d1c7a"},
-    {file = "traitlets-5.3.0.tar.gz", hash = "sha256:0bb9f1f9f017aa8ec187d8b1b2a7a6626a2a1d877116baba52a129bfa124f8e2"},
+    {file = "traitlets-5.4.0-py3-none-any.whl", hash = "sha256:93663cc8236093d48150e2af5e2ed30fc7904a11a6195e21bab0408af4e6d6c8"},
+    {file = "traitlets-5.4.0.tar.gz", hash = "sha256:3f2c4e435e271592fe4390f1746ea56836e3a080f84e7833f0f801d9613fec39"},
 ]
 typing-extensions = [
     {file = "typing_extensions-4.3.0-py3-none-any.whl", hash = "sha256:25642c956049920a5aa49edcdd6ab1e06d7e5d467fc00e0506c44ac86fbfca02"},
